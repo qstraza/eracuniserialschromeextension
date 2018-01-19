@@ -8,7 +8,7 @@ $( document ).ready(function() {
     // Checking if hidden input field exists which determens popup is a Serial
     // number popup.
     if (!$(el.target).prop('id').length) {
-      if ($(el).parent().has('input[value=ajaxPostUpdateItemSerialNumbers]')) {
+      if ($(el.target).parents('form').has('input[value=ajaxPostUpdateItemSerialNumbers]').length) {
         // Add class for styling.
         $(el.currentTarget).parents('.DialogBox').addClass('serialParser');
         // Inject HTML in to DOM.
