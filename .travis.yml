@@ -3,6 +3,8 @@ node_js:
   - '7'
 env:
   - EXTENSION_ID=mieiidjehfdcknlieknkmadkkchcepgj
+before_install:
+  - npm install -g chrome-webstore-upload-cli@^1.0.0
 deploy:
   provider: script
   script: npm run release
