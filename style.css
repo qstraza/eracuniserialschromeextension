@@ -1,0 +1,22 @@
+.DialogBox.serialParser {
+  width: 600px !important;
+}
+.DialogBox.serialParser .DialogBoxContent > div{
+  float: left;
+}
+#serialParserWrapper {
+  width: 261px;
+}
+#serialParserWrapper textarea {
+  width: 260px;
+}
+#serialParserWrapper h3{
+  margin-top: 9px !important;
+  margin-bottom: 0 !important;
+}
+#serialParserHelp .serialParserHelpBody {
+  display: none;
+}
+#serialParserHelp .serialParserHelpTitle {
+  cursor: pointer;
+}
