@@ -108,6 +108,9 @@ function parseSerials(txt) {
           while (newSerial != end);
         }
       }
+      else {
+        newSerials.push(serial);
+      }
     }
     else {
       newSerials.push(serial);
