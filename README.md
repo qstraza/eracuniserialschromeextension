@@ -1,3 +1,6 @@
+## This extension is deprecated. Please use the extension below which includes serial number and other enhancements.
+https://chrome.google.com/webstore/detail/serial-importer-e-racunic/mieiidjehfdcknlieknkmadkkchcepgj
+
 # Eracuni Serials Chrome Extension
 E-racuni.com extension to help you fill serial numbers quicker.
 
